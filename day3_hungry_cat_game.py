@@ -24,10 +24,12 @@ print("Your mission is to find the cat food.\n")
 
 food = input("You didn't eat for hours and you are starving. Choose between Sheeba or Fancy Feast:\n")
 food_l = food.lower()
+
 if food_l == "sheeba":
   print("Oh no! It was jelly. Cat go hungry. Game over!")
 else:
   treat = input("Is it treat time? I am hungryyyy. Type Y or N:\n")
+  
   if treat == "Y":
     print("Too late, Maya beat you to it. She ate them all. You lose")
   else:
@@ -35,6 +37,7 @@ else:
     taste = tw.lower()
     if taste == "yellow":
       print("Well done. Time for a nap!")
+    
     else:
       print("CAT IS ANGRY. NO CUDDLES TONIGHT")
       
@@ -61,5 +64,3 @@ print('''
 
 
 ''')
-
-
